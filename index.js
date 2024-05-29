@@ -9,11 +9,28 @@ const party = {
 
 
 // Use Fetch API
-async function logParties() {
-    const response = await fetch("http://example.com/movies.json");// NEED TO CORRECT URL
-    const parties = await response.json("");
-    console.log(parties);
-  }
+const fetchAllparties = async () => {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  };
+ // USE Fetch to create a Post
+  const createNewParty = async (name, location, description, date , time) => {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  //DELETE 
+  const removeAParty = async (id) => {
+    try {
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  
 /// POST 
   const posParties = [
     { id:"1", name:"Party Name",description: "This is a description of the party.",date: "2021-09-30T00:00:00.000Z",location: "123 Street" }
